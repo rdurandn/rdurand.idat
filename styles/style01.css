@@ -1,0 +1,21 @@
+.grid-container{
+    display: grid;
+    background-color: bisque;
+    grid-template-columns: auto auto auto;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.grid-container div{
+    background-color: brown;
+    color: aliceblue;
+}
+
+@media screen and (max-width:700px) {
+    .grid-container{
+         
+    }   
+}

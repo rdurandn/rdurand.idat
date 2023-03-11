@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben Durand | Blog - Web - Frontend</title>
+    <link rel="shortcut icon" href="./imgs/logo1.png">
+    <link rel="stylesheet" href="../MyPortfolio/styles/style.css">
+    <link rel="stylesheet" href="../MyPortfolio/styles/normalize.css">
+    <meta name="description" content="Web desarrollada para compartir información sobre mi, mis pasiones y más">
+    <meta name="keywords" content="blog, programación web, web personal, mi portafolio, res">
+    <script src="https://kit.fontawesome.com/2cb25f2c39.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-menu"> 
+                
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#" class="link">
+                        <img src="../MyPortfolio/imgs/logo1.png" alt="logoBlog" class="logo">
+                    </a>
+                </li>      
+                <li><a href="#SobreMi" class="link">Sobre Mi</a></li>
+                <li><a href="#sec-2" class="link">Mis Proyectos</a></li>
+                <li><a href="#sec-3" class="link">Mi experiencia</a></li>
+                <li><a href="#contact" class="link">Contáctame</a></li>
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <i class="fa-sharp fa-solid fa-bars"></i>
+                </label>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <section>
+        <div class="container-img">
+            <div>
+                <h1 class="text-1">Hola, soy R. David Durand N.</h1>
+                <!-- <p>So</p> -->
+            </div>
+            <div>
+                <img class="img-principal" src="./imgs/mf-avatar.svg" alt="Imagen Root">
+            </div>
+            <div>
+                <img class="img-second" src="./imgs/hero-devices.svg" alt="Imagen de Linux">
+            </div>
+        </div>  
+    </section>
+    <hr>
+    <section class="container-bi-as">
+        <div class="container-block">
+            <div id="SobreMi">
+            <h1 class="text-present">Encantado de conocerte</h1>
+            <p class="text-desc-present">Soy Ingeniero de Sistemas con experiencia en el desarrollo de soluciones tecnológicas, y actualmente estoy ampliando mis habilidades en el campo del desarrollo web. Desde niño he tenido una pasión por las computadoras, y esta pasión me ha llevado a dedicar mi carrera a la creación de soluciones innovadoras. He trabajado en proyectos desafiantes que me han permitido demostrar mi capacidad para resolver problemas técnicos y trabajar en equipo. También he adquirido habilidades en áreas como la programación, soporte informático, conocimiento del sistema operativo Linux, entre otras.</p>
+            </div>
+        </div>
+        <div class="flex-container-img">        
+            <div class="container-img1">
+                <img src="./imgs/icon_support.svg" alt="icono " class="icon_block_1">
+                <h2>Soporte TI</h2>
+                <p>Conocedor de Soporte de TI</p>
+                <ul>
+                    <li>Service Desktop</li>
+                    <li>Cableado de redes</li>
+                    <li>Office Avanzado</li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="container-img2">
+                <img src="./imgs/icon_web.svg" alt="icono descri" class="img_block_2">
+                <h2>Programador Web</h2>
+                <p>Me gusta codificar cosas desde cero y disfruto dando vida a las ideas en el navegador.</p>
+                <ul>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="container-img3">
+                <img src="./imgs/icon_linux.svg" alt="img de bloque 3" class="img_block_3"">
+                <h2>S.O Linux</h2>
+                <p>Conocedor del Sistema Operativo linux y seguimos aprendiendo para tener un conocimiento avanzado del mismo
+                </p>
+                <ul>
+                    <li>Comandos</li>
+                    <li>BashScripting</li>
+                </ul>
+            </div>
+        </div>    
+    </section>
+    <hr>
+    <aside>
+        <div class="form-contact" id="contact">
+            <div>
+                <h2 class="text-form-contact">Contáctame</h2>
+            </div>
+            
+            <form class="form">
+                <div class="form-inputs">
+                    <input class="form-type" type="text" placeholder="Tu Nombre" required >
+                    <input class="form-type" type="tel" placeholder="tu telefono" required>
+                    <input class="form-type" type="mail" placeholder="Tu email" required>
+                </div>
+                <div class="text-area">
+                    <textarea cols="37" rows="10"
+                    placeholder="Déjame tu opinión"
+                    ></textarea>  
+                </div>
+                <div class="class-button">
+                    <button>Enviar</button>
+                </div>
+                
+            </form>
+        </div>
+
+    </aside>
+</body>
+<!-- El footer está elaborado en Bootstrap -->
+<footer>
+    <div class="container my-5">
+
+        <footer class="text-center text-lg-start" style="background-color: rgb(24,26,28)">
+          <div class="container d-flex justify-content-center py-5">
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+              <i class="fab fa-facebook-f"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+              <i class="fab fa-youtube"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+              <i class="fab fa-instagram"></i>
+            </button>
+            <button type="button" class="btn btn-primary btn-lg btn-floating mx-2" style="background-color: #54456b;">
+              <i class="fab fa-twitter"></i>
+            </button>
+          </div>
+      
+          <!-- Copyright -->
+          <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/"> RDurand</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        
+      </div>
+      <!-- End of .container -->
+</footer>
+
+
+</html>

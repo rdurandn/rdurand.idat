@@ -1,0 +1,246 @@
+body{
+    background: rgb(24,26,28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Menu de navegación */
+.menu{
+    display: flex;
+    background-color: darkred;
+    justify-content: space-evenly;
+    /* height: 100%; */
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    /* position: fixed; */
+    width: 100%;
+    /* height:10vh; */
+}
+
+li{
+    list-style: none;
+}
+
+.nav-menu{
+    display: block;
+    transition: all .5%;
+    text-transform: uppercase;
+}
+
+.bar-btn{
+    color: floralwhite;
+    font-size: 25px;
+    border: solid 1px darkred;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+.link{
+    text-decoration: none;
+    color: floralwhite;
+    /* line-height: 100%; */
+    font-size: 20px;
+}
+
+.link:hover{
+    background-color: rgb(0,151,210);
+    border-radius: 5px;
+    
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+   
+}
+
+@media screen and (max-width:600px){
+    .menu{
+        flex-direction: column;
+        margin-right: auto;
+        margin-left: auto;
+        align-items: flex-start;
+    }
+}
+
+/* Bloque de imagenes y saludo */
+.text-1{
+    color: black;
+    font-size: 50px;
+    /* text-align: center; */
+    letter-spacing: 0.1em;
+}
+.container-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img-principal{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+    /* position: absolute; */
+}
+
+.img-second{
+    height: auto;
+    max-width: 70%;
+    margin: 50px;
+}
+
+.container-block{
+    background-color: darkred;
+    text-align: center;
+    justify-content: center;
+    height:500px;
+    display: flex;
+    /* align-items: center; */
+    
+}   
+
+#SobreMi{
+    width: 700px;
+
+}
+
+.text-block{
+    font-size: 20vh;
+    color:floralwhite;
+    justify-content: center;
+    
+}
+
+.text-desc-present{
+    color: floralwhite;
+
+}
+
+.flex-container-img{
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: -10rem;
+    background-color: aliceblue;
+    
+    border-radius: 12px;
+    /* align-items: center; */
+    height: 700px;
+    padding: 50px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container-img{
+    max-width: 1200px;
+
+}
+
+.container-bi-as{
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.text-present{
+
+    color: aliceblue;
+}
+
+@media screen and (max-width:600px)
+{
+    .flex-container-img{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+@media screen and (max-width:600px)
+{
+    .flex-container-img{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+
+
+.flex-container-img img{
+    background-color: #5BE9B9;
+    height: 3em;
+    width: 2.2em;
+    border-radius: 50%;
+    padding: 20px;
+    max-width: 100%;
+    
+}
+
+.container-img1{
+    border-left: solid gray 1px;
+    width: 400px;
+}
+
+.container-img2{
+    border-left: solid gray 1px;
+    border-right: solid gray 1px;
+    width: 400px;
+}
+
+.container-img3{
+    border-right: solid gray 1px;
+    width: 400px;
+    
+}
+
+
+
+.form-contact{
+    background-color: darkred;
+    /* display: flex; */
+    /* flex-direction: column; */
+    text-align: center;
+    height: 500px;
+}
+
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-inputs .form-type{
+    margin: 3px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.text-area{
+    margin: 20px;
+}
+
+.text-form-contact{
+    color: floralwhite;
+    padding-top: 20px;
+}
+
+button{ 
+    background-color: #6092EE;
+    border: none;
+    width: 80px;
+    color: floralwhite;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
